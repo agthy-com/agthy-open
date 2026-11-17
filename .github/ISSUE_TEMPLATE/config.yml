@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and account help
+    url: mailto:contact@agthy.com
+    about: For account, billing or anything private, write to us instead of opening a public issue.

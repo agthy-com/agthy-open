@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea or an improvement for Agthy
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Agthy. One idea per request, please.
+        Do not paste passwords, API keys, tokens or webhook secrets.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The problem or the goal, in a few sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Agthy to do?
+      description: Your idea, as concrete as you can.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead?
+      description: A workaround or another tool you use, if any.

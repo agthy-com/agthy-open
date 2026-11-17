@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Agthy does not work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Do not paste passwords, API keys, tokens or webhook secrets, and hide them in screenshots.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps, starting from the page you were on.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+  - type: input
+    id: job
+    attributes:
+      label: Job name or link
+      description: If it happened on a job, its name or link.
+  - type: input
+    id: when
+    attributes:
+      label: When did it happen?
+      description: Date and time, with your time zone.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and system
+      placeholder: Firefox 140 on Linux
